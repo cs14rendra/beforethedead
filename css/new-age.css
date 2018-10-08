@@ -60,6 +60,15 @@ section h2 {
   font-size: 50px;
 }
 
+.mu-title-dot {
+	border-radius: 50%;
+	height: 8px;
+	width: 8px;
+	display: inline-block;
+	margin-bottom: 20px;
+	position: relative;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -456,6 +465,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 	width: 100%;
 }
 
+
+
 .mu-apps-screenshot-content{
 	display: inline;
 	float: left;
@@ -506,6 +517,14 @@ img {
 	background-color: #000;
 	display: inline;
 	float: left;
+	width: 100%;
+}
+
+.mu-title-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	padding: 0 120px;
 	width: 100%;
 }
 
