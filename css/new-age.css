@@ -71,7 +71,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #f44336;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -158,9 +158,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-patteorn.png"), #004397;
+  background: url("../img/bg-patteron.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: url("../img/bg-patterno.png"), linear-gradient(to left, #000000, #000000);
 }
 
 header.masthead .header-content {
@@ -281,7 +281,7 @@ section.features .feature-item i {
   display: block;
   margin-bottom: 15px;
   background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #0b4397, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -401,7 +401,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .bg-primary {
   background: #fdcc52;
   background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#212121, #000000);
 }
 
 .text-primary {
@@ -435,4 +435,114 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+/*--------------------*/
+/* APPPS SCREENSHOT */
+/*--------------------*/
+
+
+#mu-apps-screenshot {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-apps-screenshot-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-apps-screenshot-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-apps-screenshot-slider {
+
+}
+
+.mu-single-screeshot {
+	padding: 0 10px;
+	outline: none;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.mu-apps-screenshot-slider .slick-next {
+	right: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-prev {
+	left: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-next,
+.mu-apps-screenshot-slider .slick-prev {
+	background-color: transparent;
+}
+
+
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+
+
+
+/*--------------------*/
+/* APPPS SCREENSHOT */
+/*--------------------*/
+
+
+#mu-apps-screenshot {
+	background-color: #000;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-apps-screenshot-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-apps-screenshot-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-apps-screenshot-slider {
+
+}
+
+.mu-single-screeshot {
+	padding: 0 10px;
+	outline: none;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.mu-apps-screenshot-slider .slick-next {
+	right: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-prev {
+	left: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-next,
+.mu-apps-screenshot-slider .slick-prev {
+	background-color: transparent;
 }

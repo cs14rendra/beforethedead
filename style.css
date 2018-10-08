@@ -1,0 +1,86 @@
+
+/*
+Template Name: Apex App
+Author: MarkUps
+Author URI: http://www.markups.io/
+Version: 1.0
+*/
+
+
+/* Table of Content
+==================================================
+#BASIC TYPOGRAPHY
+#HEADER
+#MENU
+#FEATURE SECTION
+#VIDEO
+#APPPS SCREENSHOT
+#DOWNLOAD
+#FAQ
+#CONTACT US
+#FOOTER
+#RESPONSIVE STYLE
+*/
+
+
+/*--------------------*/
+/* BASIC TYPOGRAPHY */
+/*--------------------*/
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+
+
+
+/*--------------------*/
+/* APPPS SCREENSHOT */
+/*--------------------*/
+
+
+#mu-apps-screenshot {
+	background-color: #000;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-apps-screenshot-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-apps-screenshot-content{
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-apps-screenshot-slider {
+
+}
+
+.mu-single-screeshot {
+	padding: 0 10px;
+	outline: none;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.mu-apps-screenshot-slider .slick-next {
+	right: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-prev {
+	left: -60px;
+}
+
+.mu-apps-screenshot-slider .slick-next,
+.mu-apps-screenshot-slider .slick-prev {
+	background-color: transparent;
+}
